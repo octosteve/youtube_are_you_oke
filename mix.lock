@@ -1,0 +1,9 @@
+%{"exactor": {:hex, :exactor, "2.1.2"},
+  "exjsx": {:hex, :exjsx, "3.1.0"},
+  "exvcr": {:git, "git://github.com/parroty/exvcr.git", "4c1e1b6fdd677cfa94b06506631139102274fb37", []},
+  "hackney": {:hex, :hackney, "1.1.0"},
+  "httpoison": {:hex, :httpoison, "0.7.0"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "jsx": {:hex, :jsx, "2.4.0"},
+  "meck": {:hex, :meck, "0.8.2"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"}}
