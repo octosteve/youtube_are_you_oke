@@ -7,7 +7,10 @@ defmodule YoutubeAreYouOkeTest do
     :ok
   end
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "fetches karaoke video list from youtube" do
+    result = Youtube.search("Uptown Funk")
+    |> List.first
+    |> Video.get_title
+    assert String.contains?(result, "Karaoke")
   end
 end
